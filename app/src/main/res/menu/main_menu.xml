@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:checked="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/lable_nav_home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_booking"
+        android:checked="true"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="@string/lable_booking"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_map"
+        android:checked="true"
+        android:icon="@drawable/ic_map_black_"
+        android:title="@string/lable_map"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_history"
+        android:checked="true"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="@string/lable_history"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:checked="true"
+        android:icon="@drawable/ic_person_identity_black_24dp"
+        android:title="@string/lable_profile"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

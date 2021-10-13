@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/rv_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#26C6DA"
+                android:id="@+id/frame1">
+
+                <LinearLayout
+                    android:id="@+id/linearBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_menu_white_24dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="@string/textJudul"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_more_vert_white_24dp"
+                        android:layout_weight="2"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="24dp"
+                android:id="@+id/input_text_layout"
+                app:boxCornerRadiusBottomEnd="8dp"
+                app:boxCornerRadiusBottomStart="8dp"
+                app:boxCornerRadiusTopEnd="8dp"
+                app:boxCornerRadiusTopStart="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_search_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:hint="Search for Hotel.." />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/is_main"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250dp"
+                android:layout_below="@id/input_text_layout"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@android:color/holo_blue_dark"
+                app:fillColor="@android:color/white"
+                app:pageColor="@android:color/transparent"
+                app:radius="@dimen/_5dp"
+                app:slideInterval="3000"
+                app:strokeColor="@android:color/white"
+                app:strokeWidth="@dimen/_1dp"/>
+
+            <TextView
+                android:id="@+id/tv_most_popular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/is_main"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_16dp"
+                android:layout_marginTop="@dimen/_16dp"
+                android:text="@string/populer"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_see_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/is_main"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_16dp"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:text="@string/see"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_popular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_most_popular"
+                android:layout_marginStart="@dimen/_5dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginEnd="@dimen/_5dp" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

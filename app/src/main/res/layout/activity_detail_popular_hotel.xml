@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_16dp"
+    tools:context=".DetailPopularHotelActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_backstage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/_8dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:src="@drawable/ic_rightarrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/iv_backstage"
+            android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_24sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/fm_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/iv_backstage">
+
+            <ImageView
+                android:id="@+id/iv_image_detail_popular"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_300dp"
+                android:layout_marginTop="@dimen/_16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/hotel3" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fm_detail_image"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/rating"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/rt_var_detail_popular"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fm_detail_image"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:layout_toEndOf="@id/tv_rating"
+            android:numStars="5"
+            android:rating="3.5" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/rb_fav_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lable_name"
+            app:backgroundTint="@android:color/holo_blue_dark"
+            android:layout_toStartOf="@id/fb_exit_detail"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            app:layout_anchor = "@id/fm_detail_image"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/lable_name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/_8dp"
+            android:id="@+id/fb_exit_detail"
+            app:backgroundTint="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:src="@drawable/ic_close_black_"
+            app:layout_anchor = "@id/fm_detail_image"/>
+
+
+        <TextView
+            android:id="@+id/lable_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_rating"
+            android:layout_marginTop="@dimen/_24dp"
+            android:text="@string/name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_name"
+            android:layout_marginTop="@dimen/_5dp"
+            android:paddingTop="@dimen/_5dp"
+            android:text="@string/lable_address"
+            android:textSize="@dimen/_20sp"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/lable_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_name"
+            android:layout_marginStart="@dimen/_75dp"
+            android:layout_toEndOf="@id/address"
+            android:paddingTop="@dimen/_5dp"
+            android:layout_marginTop="@dimen/_5dp"
+            android:text="@string/lable_address"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_15sp" />
+
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_marginTop="@dimen/_5dp"
+            android:paddingTop="@dimen/_5dp"
+            android:text="@string/lable_name_desc"
+            android:textSize="@dimen/_20sp"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/lable_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_address"
+            android:layout_marginStart="@dimen/_75dp"
+            android:layout_toEndOf="@id/address"
+            android:paddingTop="@dimen/_5dp"
+            android:text="@string/lable_name_desc"
+            android:maxLines="3"
+            android:layout_marginTop="@dimen/_5dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_15sp" />
+
+
+
+        <TextView
+            android:id="@+id/txtprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_desc"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_toLeftOf="@id/btn_visit"
+            android:text="@string/harga"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_visit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_desc"
+            android:layout_marginTop="@dimen/_24dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:layout_toLeftOf="@id/btn_order"
+            android:text="@string/visit" />
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lable_desc"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_24dp"
+            android:background="@android:color/background_dark"
+            android:padding="@dimen/_5dp"
+            android:text="@string/order"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</ScrollView>

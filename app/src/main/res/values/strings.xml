@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">HotelApp</string>
+    <string name="title">Title</string>
+    <string name="alamat">Alamat</string>
+    <string name="desc">description</string>
+    <string name="textJudul">Today,Wednesday</string>
+    <string name="more">More</string>
+    <string name="lable_search">Search</string>
+    <string name="lable_nav_home">Home</string>
+    <string name="lable_booking">MyBooking</string>
+    <string name="lable_inbox">MyInbox</string>
+    <string name="lable_history">History</string>
+    <string name="lable_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="populer">Popular</string>
+    <string name="see">See</string>
+    <string name="popular">Popular Hotel</string>
+    <string name="lable_category_jkt">Indonesia</string>
+    <string name="lable_category_kostarika">Kosta Rika</string>
+    <string name="lable_category_beijing">Beijing</string>
+    <string name="lable_category_bangkok">Bangkok</string>
+    <string name="lable_category_yunani">Yunani</string>
+    <string name="lable_category_bahama">Bahama</string>
+    <string name="lable_category_india">India</string>
+    <string name="lable_category_china">China</string>
+    <string name="lable_map">Map</string>
+    <string name="name">Name</string>
+    <string name="rating">Rating</string>
+    <string name="lable_address">address</string>
+    <string name="order">Order</string>
+    <string name="visit">Visit</string>
+    <string name="harga">Price</string>
+    <string name="lable_name_desc">Description</string>
+    <string name="lable_name">Hotel</string>
+    <string name="lable_name_address">Address</string>
+
+    <string-array name="title">
+        <item>The Oberoi, New Delhi</item>
+        <item>The Temple House, Chengdu, China</item>
+        <item>The Oberoi Udaivilas, Udaipur, India</item>
+        <item>Kamalame Cay, Bahama</item>
+        <item>Grace Hotel, Santorini, Yunani</item>
+        <item>Capella Ubud, Bali, Indonesia</item>
+        <item>Capella Bangkok</item>
+        <item>The Opposite House, Beijing</item>
+        <item>Nayara Tented Camp, Kosta Rika</item>
+        <item>Mahali Mzuri, Kenya</item>
+    </string-array>
+
+    <string-array name="desc">
+        <item>Ada 220 kamar yang ditata apik di hotel mewah ini yang terletak di dekat beberapa atraksi Delhi. Para tamu dapat bersantai di kolam renang dalam ruangan atau luar ruangan, lalu memilih dari tujuh restoran dan bar, termasuk salah satunya oleh Alfred Prasad, mantan bintang Michelin Tamarind di London. Hote ini mendapat skor 98,90.</item>
+        <item>Dua menara modernis dari kaca muncul dari sebuah bangunan berusia seabad dan halaman yang dipenuhi pepohonan, menciptakan perlindungan di dalam ibu kota Sichuan yang ramai. Kamar-kamarnya modern dan minimalis, dan ada empat gerai makanan dan minuman, spa, kolam renang dalam ruangan, dan mobil rumah untuk dinikmati. Hotel ini mendapat skor 98,94.</item>
+        <item>Tidak sulit untuk merasa seperti bangsawan di hotel istana yang mewah ini, di mana Danau Pichola yang berkilauan di Udaipur berada di depan dan tengah. Kamar-kamar mewah memiliki kolam semi-pribadi yang menciptakan semacam parit di sekitar hotel, dan staf dilatih untuk mengantisipasi setiap keinginan tamu. Hotel ini mendapat skor 99,12.</item>
+        <item>Meskipun resor pulau Bahama yang tenang ini agak sulit dijangkau, perjalanan ini sepadan bagi para tamu yang berhasil mencapai pantainya yang berkilauan. Para tamu dapat bersantai di dek bungalow tepi pantai mereka, menikmati sarapan yang diantarkan setiap hari dalam keranjang anyaman, dan meminjam kereta golf dan sepeda untuk menjelajahi pulau seluas 96 hektar. Tempat ini mendapatkan skor 99,14.</item>
+        <item>Resor bercat putih ini, terletak di sisi Santorini yang lebih tenang, memiliki pemandangan Aegean yang berkilau tanpa terhalang oleh keramaian. Tamu yang menginap di properti ini dapat menikmati yoga di luar ruangan. Mereka juga bisa meminta staf untuk mengoordinasikan pendakian atau pelayaran yang indah untuk melihat pulau dari sudut pandang yang berbeda. Tempat ini mendapat skor 99,18.</item>
+        <item>Resor mewah yang dirancang oleh Bill Bensley ini memiliki jembatan gantung yang mengarah ke-22 tenda persembunyian yang dikelilingi oleh hutan hujan yang rimbun dan sungai Wos yang mengalir di bawahnya. Tempat ini menyediakan dua restoran dan bar, dan api unggun malam adalah tempat untuk mendongeng, film, dan live music sambil menyesap cokelat panas. Tempat ini memiliki skor 99,34.</item>
+        <item>Terletak di tepi timur Sungai Chao Phraya, tempat peristirahatan perkotaan baru ini menawarkan pemandangan ibu kota Thailand yang semarak. Ada empat tempat makan, termasuk satu yang diawasi oleh koki Mauro Colagreco dari Mirazur bintang tiga Michelin Prancis, dan spa mewah dengan perawatan, terapi, dan kelas kebugaran. Hotel ini mendapat skor 99,38.</item>
+        <item>Arsitek Jepang Kengo Kuma merancang bangunan kaca zamrud ini dengan referensi halus ke arsitektur tradisional Tiongkok. Kamar minimalis dengan sentuhan mewah seperti bak rendam kayu ek dan tempat tidur mewah, staf sangat penuh perhatian. Hotel yang lokasinya dekat dengan semua atraksi Beijing ini mempunyai skor 99,47.</item>
+        <item>Hotel ini memiliki kamar mandi yang luas dengan bak berendam, dek pribadi, dan kolam renang yang menghadap ke hutan hujan Costa Rika yang rimbun dan Gunung Api Arenal yang megah. Para tamu dapat melihat satwa liar hingga dimanjakan spa mewah. Hotel ini mendapat skor 99,58.</item>
+        <item>Hotel ini dinilai sempurna oleh pemilih karena sangat khas dan mempunyai camp safari. Satwa-satwa liar bisa disaksikan dari hotel ini. Hotel ini memiliki skor paling tinggi yaitu 99,73.</item>
+    </string-array>
+
+    <string-array name="address">
+        <item>Belanda</item>
+        <item>Korea</item>
+        <item>Swiss</item>
+        <item>Indonesia</item>
+        <item>USA</item>
+        <item>Australia</item>
+        <item>Jakarta</item>
+        <item>UKA</item>
+        <item>Rusia</item>
+        <item>Turki</item>
+    </string-array>
+
+
+    <array name="image">
+        <item>@drawable/hotel1</item>
+        <item>@drawable/hotel2</item>
+        <item>@drawable/hotel3</item>
+        <item>@drawable/hotel4</item>
+        <item>@drawable/hotel5</item>
+        <item>@drawable/hotel6</item>
+        <item>@drawable/hotel7</item>
+        <item>@drawable/hotel8</item>
+        <item>@drawable/hotel9</item>
+        <item>@drawable/hotel10</item>
+    </array>
+
+    <string-array name="data_price">
+        <item>Rp 50.000</item>
+        <item>Rp 89.000</item>
+        <item>Rp 23.000</item>
+        <item>Rp 44.000</item>
+        <item>Rp 28.000</item>
+        <item>Rp 50.000</item>
+        <item>Rp 89.000</item>
+        <item>Rp 23.000</item>
+        <item>Rp 44.000</item>
+        <item>Rp 28.000</item>
+    </string-array>
+</resources>
